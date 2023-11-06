@@ -122,6 +122,83 @@ Web developer
 
 ### Developer tools
 
+- browser tool - inspect
+    - elements - lets you inspect the different elements on a page
+    - console - outputs js logs
+    - sources - content resolved for page
+    - network - inspect time and details of http request
+    - performance - pinpoints functions that are taking up most time
+    - memory - what's consuming the most resources
+
+### Frameworks and libraries
+
+- compare to using a hammer
+    - you wouldn't use a new hammer - you'd reuse the hammer you have
+
+- libraries 
+    - reusable pieces of code
+    - specific functionality
+    - time saving
+    - ie. email validation 
+    - pros
+        - can be replaced
+    - cons
+        - selecting library set
+        - compatibility with other libraries
+
+- frameworks
+    - provide a structure for developers to build with
+        - to build a chair, you'd need a blueprint
+    - ie. framworks for developing applications
+        - express, django, asp.net, rails, spring
+    - pros
+        - time saving
+        - enforces structure
+        - follows best practices
+    - cons
+        - structure constraints
+        - compatibility with libraries you want to use
+
+- frameworks contain libraries
+
+- when?
+    - frameworks - opinionated
+    - libraries - un-opinionated
+
+### APIs and services
+
+- API
+    - set of functions to access features
+    - aka gateway or middleware
+    - act as bridge between systems
+    - ie.
+        - REST
+            - provides data for web/mobile apps
+            - aka webservers
+            - set of principles
+            - provides response to request
+        - sensor-based
+            - what IoT is based on
+            - actual physicals sensors tha can communicate with each other
+        - DOM - html to tree of nodes
+        - geolocation
+        - fetch
+        - canvas
+        - history
+        - web storage
+    - APIs use REST principles
+        - use endpoints (ie. stuff after / in the URL)
+
+
+### IDEs
+
+- can be specific to a programming language
+- set of tools a dev uses (much like a carpenter and their toolbox)
+- features
+    - error/syntax highlighting
+    - auto-completion
+    - refactoring
+    - debugger
 
 ## Glossary
 
@@ -137,11 +214,16 @@ Web developer
 
 **HTTP** - hypertext transfer protocol
 
+**IDE** - integrated development environment
+
 **IMAP** - internet message access protocol
 
 **POP** - post office protocol
 
+**REST** - representation state transfer
+
 **SFTP** - SSH file transfer protocol
+
 **SMTP** - simple mail transfer protocol
 
 **SSH** - secure shell protocol
