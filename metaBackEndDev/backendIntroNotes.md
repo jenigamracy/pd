@@ -1,5 +1,7 @@
 # Introduction to Back-End Developement
 
+# Week 1
+
 ## Introduction to the professional certificate
 
 Web developer
@@ -234,3 +236,14 @@ Web developer
 
 **URL** - uniform resource locator
 
+# Week 2
+
+## What is HTML?
+
+- HyperText Markup Language
+- hyptertext - text which contains links to other text
+- markup - tags/elements used in a document
+
+- W3C maintains HTML
+- HTML5 current version 
+- use CSS to pretty up a webpage
