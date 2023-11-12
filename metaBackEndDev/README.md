@@ -2,7 +2,7 @@
 
 This course consists of nine courses.  Notes to each one, if available, are linked.
 
-1 - [Introduction to Back-end Development](backendIntroNotes.md)
+1 - [Introduction to Back-end Development](intro/README.md)
 
 2 - Programming in Python
 
