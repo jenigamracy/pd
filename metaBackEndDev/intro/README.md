@@ -10,6 +10,6 @@ None
 
 ### Week 2
 
-[1 - Creating an HTML document](assignments/createHtmlDoc/README.md)
+1. [Creating an HTML document](assignments/createHtmlDoc/README.md)
 
-[2 - Styling a Page](assignments/stylePage/README.md)
+2. [Styling a Page](assignments/stylePage/README.md)
