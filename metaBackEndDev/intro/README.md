@@ -1,7 +1,5 @@
 # Introduction to Back-End Development
 
-## Notes
-
 [Notes](notes.md)
 
 ## Assignments
