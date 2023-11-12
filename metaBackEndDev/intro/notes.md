@@ -318,4 +318,9 @@ Web developer
 
 - use CSS to change from block to inline and vice-versa
 
-### Alignment basics
+### Syntax
+
+- classes: `.className {}`
+- elements with IDs: `#idName {}`
+- child elements: `parent > child {}`
+
