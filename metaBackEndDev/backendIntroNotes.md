@@ -45,6 +45,18 @@ Web developer
         - scalable
         - pay based on resources used
 
+### Additional Resources
+
+[What is a Web Server? (NGINX)](https://www.nginx.com/resources/glossary/web-server/)
+
+[What is a Web Browser? (Mozilla)](https://www.mozilla.org/en-US/firefox/browsers/what-is-a-browser/)
+
+[Who invented the Internet? And why? (Kurzgesagt)](https://youtu.be/21eFwbb48sE)
+
+[What is Cloud Computing? (Amazon)](https://youtu.be/mxT233EdY5c)
+
+[Browser Engines (Wikipedia)](https://en.wikipedia.org/wiki/Browser_engine)
+
 ## Core internet technologies
 
 ### Introduction to internet protocols
@@ -202,6 +214,18 @@ Web developer
     - refactoring
     - debugger
 
+### Additional Resources 
+
+[HTTP Overview (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+
+[Introduction to Networking by Dr.Charles R Severance](https://www.amazon.com/Introduction-Networking-How-Internet-Works/dp/1511654945/)
+
+[Chrome Developer Tools Overview (Google)](https://developer.chrome.com/docs/devtools/overview/)
+
+[Firefox Developer Tools User Docs  (Mozilla)](https://firefox-source-docs.mozilla.org/devtools-user/index.html)
+
+[Getting Started with Visual Studio Code  (Microsoft)](https://code.visualstudio.com/docs)
+
 ## Glossary
 
 **CSS** - cascading style sheets
@@ -238,7 +262,7 @@ Web developer
 
 # Week 2
 
-## What is HTML?
+## Getting Started with HTML
 
 - HyperText Markup Language
 - hyptertext - text which contains links to other text
@@ -247,3 +271,51 @@ Web developer
 - W3C maintains HTML
 - HTML5 current version 
 - use CSS to pretty up a webpage
+
+- HTML doc begings with DOCTYPE declaration
+- DOM to represent the HTML doc in JS
+
+### WAI
+
+- Web Accessibility Initiative
+- improves web accessibility for people with disabilities
+- done so by:
+    - correct HTML structure
+    - ARIA techniques (Accessible Rich Internet Application)
+    - appropriate use of HTML elements
+
+### Additional Resources
+
+[HTML Elements Reference (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
+[The Form Element (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+
+[What is the DOM? (W3C)](https://www.w3.org/TR/WD-DOM/introduction.html)
+
+[ARIA in HTML](https://w3c.github.io/html-aria/)
+
+[ARIA Authoring Practices (W3C)](https://www.w3.org/TR/wai-aria-practices-1.2/)
+
+## CSS Basics
+
+### Box Model
+
+- 4 parts:
+    - content - you
+    - padding - your clothes 
+    - border - your silhoutte or outline
+    - margin - personal space between you and the next person
+
+### Block vs Inline
+
+- block
+    - stack upon each each other and begin a new linec
+    - p, div, etc
+- inline
+    - continuous flow
+    - occupy the width and height of their content and do not appear on a new line
+    - a, span
+
+- use CSS to change from block to inline and vice-versa
+
+### Alignment basics

@@ -2,20 +2,20 @@
 
 This course consists of nine courses.  Notes to each one, if available, are linked.
 
-1 - Coding Interview Preparation
+1 - [Introduction to Back-end Development](backendIntroNotes.md)
 
 2 - Programming in Python
 
-3 - Back-End Developer Capstone
+3 - Version Control
 
-4 - [Introduction to Back-end Development](backendIntroNotes.md)
+4 - Introduction to Databases for Back-End Development
 
-5 - Version Control
+5 - Django Web Framework
 
-6 - Introduction to Databases for Back-End Development
+6 - APIs
 
-7 - APIs
+7 - The Full Stack
 
-8 - Django Web Framework
+8 - Back-End Developer Capstone
 
-9 - The Full Stack
+9 - Coding Interview Preparation
