@@ -12,4 +12,6 @@ None
 
 1. [Creating an HTML document](assignments/createHtmlDoc/README.md)
 
-2. [Styling a Page](assignments/stylePage/README.md)
+1. [Styling a Page](assignments/stylePage/README.md)
+
+1. [Create and Style a Webpage](assignments/createAndStyleWebpage/README.md)
