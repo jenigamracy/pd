@@ -331,3 +331,100 @@ Web developer
 [HTML and CSS: Design and build websites by Jon Duckett](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/)
 
 [CSS Definitive Guide  by Eric Meyer](https://www.amazon.com/CSS-Definitive-Guide-Visual-Presentation/dp/1449393195/)
+
+# Week 3
+
+## Intro to UI and Frameworks and Libraries
+
+### Working with Libraries
+
+- bootstrap css
+    - `<link href="[link]" rel="stylesheet">`
+- js
+    - `<script src=""></script>`
+
+- dependency tree
+    - where you have libraries that can depend on other libraries
+
+- package manager
+    - allows you to handle the dependencies given a version
+
+- npm (node package manager)
+    - most common
+
+- include all your dependencies in your html using a bundler (ie. gulp, webpack)
+
+### Introduction to responsive design
+
+- allows the website to automatically stretch or shrink depending on the screen it is displayed on
+
+- set of 3 practices:
+    - flexible grids
+        - columns
+        - gutters (space between columns)
+        - margins (space between content and L and R edges of screen)
+
+        - defined in percentage values
+    - fluid images
+        - set css max width property of images to 100%
+        - images will scale down smaller if containing columns becomes narrower
+            - will not grow larger and become pixelated if column becomes wider than image
+    - media queries
+        - query the display size, orientation, aspect ratio
+
+- breakpoint (pixed value specified)
+    - the point which a website's content and layout will adapt to provide the best possible experience
+    - can function in different ways across different grids
+        - fixed grid
+            - fixed width columns and flexible margins
+        - fluid grid
+            - full-width grids
+            - fluid-width columns, fixed gutters and margins
+            - flexible content
+        - hybrid
+            - has both fluid-width and fixed-width components
+
+### Bootstrap
+
+- library of CSS and JS code
+
+- modern web dev all about components
+- bootstrap comes with multiple components
+
+- responsive grids are also important
+- bootstrap comes with pre-made set of CSS rules
+
+#### Bootstrap Styles
+
+- bootstrap modifiers add a CSS class to change the visual style of components
+- use an infix to indicate the breakpoint
+
+| Breakpoint | Class infix | Dimensions |
+| -------- | -------- | ------------- |
+| Extra small |  | < 576 px |
+| Small | sm | >= 576 px |
+| Medium | md | >= 768 px |
+| Large | lg | >= 992 px |
+| Extra large | xl | >= 1200 px | 
+| Extra extra large | xxl | >= 1400 px |
+
+- bootstrap is mobile fix, so no infix for extra small
+
+#### Bootstrap Grid
+
+- grid
+    - 12-column grid system
+    - can be fluid or fixed
+- elements
+    - container
+        - root `<div class="container"></div>`
+        - always start with this
+        - contains pads and aligns content
+        - width determined by responsive breakpoint
+    - row
+        - `<div class="row"></div>"`
+        - in each row you can add columns
+    - column
+        - `<div class="col-12 col-lg-6"></div>`
+            - `col-12` no infix so for mobile, span the full width (12 columns)
+            - `col-lg-6` so for large screens, half-width
