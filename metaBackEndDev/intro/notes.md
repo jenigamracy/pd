@@ -428,3 +428,13 @@ Web developer
         - `<div class="col-12 col-lg-6"></div>`
             - `col-12` no infix so for mobile, span the full width (12 columns)
             - `col-lg-6` so for large screens, half-width
+
+#### Bootstrap Components
+
+- pre-made set of UI elements and styles
+- ie. ramge from alert message to navigation menus
+
+- ones used in video:
+    - badge
+    - alert, alert-info
+    - card, card-img, card-title, card-body
