@@ -438,3 +438,90 @@ Web developer
     - badge
     - alert, alert-info
     - card, card-img, card-title, card-body
+
+### Other CSS frameworks and libraries
+
+[Foundation](https://get.foundation/)
+- similar to Bootstrap
+- used by Pixar, Polar, Sonos, etc
+- can be used to style content for sending via email
+
+[Pure.css](https://purecss.io/)
+- building UI
+- not as many features as Bootstrap
+- designed to be minimal
+    - ie. smaller size improves loading time
+
+[Tailwind](https://purecss.io/)
+- utility approach for CSS rules
+- many CSS classes with a single purpose
+
+[UIKit](https://getuikit.com/)
+- small set of responsive commponents
+- simple design
+
+[MVP.css](https://andybrewer.github.io/mvp/)
+- small CSS library that automatically styles HTML elements without needing to apply CSS classes
+- aims to allow to quickly prototype a UI without worrying about the final design
+- MVP comes from "minimal viable product"
+
+### Additional Resources
+
+[Bootstrap Official Website](https://getbootstrap.com/)
+
+[Bootstrap 5 Foundations by Daniel Foreman](https://www.amazon.com/Bootstrap-Foundations-Mr-Daniel-Foreman/dp/B0948GRS8W/)
+
+[Responsive Web Design with HTML5 and CSS by Ben Frain](https://www.amazon.com/Responsive-Web-Design-HTML5-CSS/dp/1839211563/)
+
+[Bootstrap Themes](https://themes.getbootstrap.com/)
+
+## Introduction to React
+
+### Static and dynamic content
+
+- static content
+    - doesn't change
+
+- dynamic content
+    - changes based on interaction with user
+
+browser -> web server -> application server
+        <-            <-
+
+application server
+- used for every type of content
+- limited capacity for requests per second
+- cache stores dynamic content so the web server doesn't need to hit the app server constantly
+
+### Single page applications
+
+Traditional websites
+- multiple pages
+
+SPA (single-page applications)
+- doesn't mean one page, but one HTML page and the content is updated
+- responses from the web server are in JSON format
+- 2 approaches to delivering resources
+    - bundling
+        - everything is loaded
+    - lazy loading
+        - minimum resources are loaded
+        - retrieve others as required
+
+### What is React?
+
+- focused on working with components
+- can be used with other JS libs
+- benefits
+    - write less code to implement functionality
+    - maintain code
+    - re-use components
+    - simplify testing
+
+### How React Works
+
+- reach element 1:1 HTML element
+- reconciliation
+    - virtual DOM is kept up to date
+    - if vDOM changes, it is compared to the browser DOM
+        - update browser DOM if necessary
