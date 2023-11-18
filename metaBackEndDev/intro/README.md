@@ -10,7 +10,7 @@ None
 
 ### Week 2
 
-#### Assignments
+**Assignments**
 
 1. [Creating an HTML document](homework/createHtmlDoc/README.md)
 1. [Styling a Page](homework/stylePage/README.md)
@@ -18,8 +18,12 @@ None
 
 ### Week 3
 
-#### Labs
+**Labs**
 
 1. [Working with Bootstrap Grid](homework/bootstrapGrid/index.html)
 1. [Working with Bootstrap Components](homework/bootstrapComponents/index.html)
 
+### Week 4
+
+**Labs**
+1. [Improve Your Bio Page](homework/improveBioPage/index.html) | [Exemplar](homework/improveBioPage/exemplar.html)
