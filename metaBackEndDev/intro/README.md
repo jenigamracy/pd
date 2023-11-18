@@ -21,5 +21,5 @@ None
 #### Labs
 
 1. [Working with Bootstrap Grid](homework/bootstrapGrid/index.html)
-
+1. [Working with Bootstrap Components](homework/bootstrapComponents/index.html)
 
