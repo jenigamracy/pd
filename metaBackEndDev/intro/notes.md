@@ -69,7 +69,11 @@ Web developer
 - TCP 
     - prevents the out-of-order delivery of data
         - reassembles packets in order or requests re-transmission of out-of-order packets
-- UDP - does not guarantee that packets will arrive in order
+    - suitable for text content such as HTML documents
+- UDP 
+    - does not guarantee that packets will arrive in order or at all
+    - prevents data corruption
+    - suitable for streaming 
 
 ### Introduction to HTTP
 
@@ -320,9 +324,16 @@ Web developer
 
 ### Syntax
 
-- classes: `.className {}`
-- elements with IDs: `#idName {}`
-- child elements: `parent > child {}`
+- consists of:
+    - selector (ie. h1)
+    - declaration block (ie. {})
+        - properties
+            - `propertyName: propertyValue`
+            - `color: blue;`
+- Elements: `h1 { color: blue; }`
+- Classes: `.className { } `
+- Elements with IDs: `.idName { }`
+- Child Elements: `parent > child { } `
 
 ### Additional Resources
 
