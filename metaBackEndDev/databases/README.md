@@ -61,6 +61,22 @@ cloud DBs
 
 ### Intro to SQL
 
+#### What is SQL?
+
+SQL
+- Structured Query Language - used to interact with databases
+
+C - create
+R - read
+U - update
+D - delete
+
+Examples of relational DBs
+- MySQL
+- Oracle
+- PostgreSQL
+- MS SQL Server
+
 #### Additional Resources
 
 [Javapoint](https://www.javatpoint.com/dbms-sql-introduction)
