@@ -28,6 +28,25 @@ foreign key
     - order table contains orders
         - must contain a field that indicates which customer made the order
 
+#### Alternative types of databases
+
+relational - structured
+
+- NoSQL
+    - flexible structure for storing/scaling data
+    - can store different formats
+    - used by IoT, social media
+    - can be document DBs, graph DBs, key-value DBs
+
+big data
+- complex data that grows exponentially (like IoT)
+- can be [un,semi]structured
+- different sources
+
+cloud DBs
+- lack of infrastructure/maintenance/storage costs
+- used for BI (business intelligence)
+
 #### Additional Resources
 
 [Oracle](https://www.oracle.com/uk/database/what-is-database/)
